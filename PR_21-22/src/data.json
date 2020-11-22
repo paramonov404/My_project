@@ -1,0 +1,13 @@
+,
+{
+    "id":0,
+    "data":"Oleg",
+    "isGood":false,
+    "description":"Horoshaya"
+}
+{
+    "id":1,
+    "data":"Kek",
+    "isGood":true,
+    "description":"Lol"
+}
