@@ -1,0 +1,60 @@
+{
+  "id":0,
+  "taskId":1,
+  "worker":"Paramonov",
+  "result":12
+},
+{
+  "id":0,
+  "taskId":2,
+  "worker":"Paramonov",
+  "result":8.5
+}
+{
+"id":0,
+"taskId":3,
+"worker":"Paramonov",
+"result":38
+  },
+{
+"id":0,
+    "taskId":4,
+    "worker":"Paramonov",
+    "result":20
+  },
+  {
+    "id":0,
+    "taskId":5,
+    "worker":"Paramonov",
+    "result":133
+  },
+  {
+    "id":0,
+    "taskId":6,
+    "worker":"Paramonov",
+    "result":3400
+  },
+  {
+    "id":0,
+    "taskId":7,
+    "worker":"Paramonov",
+    "result":5.83
+  },
+  {
+    "id":0,
+    "taskId":8,
+    "worker":"Paramonov",
+    "result":15129
+  },
+  {
+    "id":0,
+    "taskId":9,
+    "worker":"Paramonov",
+    "result":1.44
+  },
+  {
+    "id":0,
+    "taskId":10,
+    "worker":"Paramonov",
+    "result":1.67
+  }
