@@ -37,10 +37,12 @@ public class Main {
                 .getDeclaredMethods())
                 .filter(m -> Arrays.stream(m.getAnnotations()).anyMatch(a -> a instanceof TaskAnnotation))
                 .collect(Collectors.toList());
+        TaskAnnotation taskAnnotation;
 
         for (Task task : tasks){
            for (Method method : taskMethods){
-               if (task.getType().equals(method.getName())){
+                taskAnnotation = method.getAnnotation(TaskAnnotation.class);
+               if (task.getType().equals(taskAnnotation.type())){
                    method.invoke(handler,task.getData());
                }
            }

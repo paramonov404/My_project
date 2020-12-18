@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Handler {
 
-    @TaskAnnotation
+    @TaskAnnotation(type = "sum")
     public void sum(Data data)
     {
         int result = 0;
@@ -13,7 +13,7 @@ public class Handler {
         System.out.println(result);
     }
 
-    @TaskAnnotation
+    @TaskAnnotation(type = "print")
     public void print(Data data)
     {
         for(int i = 0; i < data.getWords().size(); i++)
